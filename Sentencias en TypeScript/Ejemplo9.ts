@@ -23,14 +23,26 @@ else
     console.log("Hago esto si la condición es: false")
 }
 
-let x: number = 5
-let y: number = 4
+let x: number = 6
+let y: number = 15
 
-if (x+y>10)
+if (x+y>15)
 {
-    
+    console.log("La suma es mayor que 15")
+}
+else if(x+y==10)
+{
+    console.log("La suma es igual a 10")
+}
+else if(x+y==11)
+{
+    console.log("La suma es igual a 11")
 }
 else
 {
-
+    console.log("La suma está entre 12 y 15")
 }
+
+// Operador Ternario
+
+x>y? console.log("X es mayor que Y"): console.log("X es menor que Y")
